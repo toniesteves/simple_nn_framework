@@ -15,7 +15,7 @@ class Dense(object):
     self.n_outputs = int(n_outputs)
     self.tahn = tahn
     
-    self.learning_rate = .005
+    self.learning_rate = .05
     
     self.initial_weights_scale = 1
     
