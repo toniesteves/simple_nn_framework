@@ -3,7 +3,7 @@ from nn_framework.ann import ANN
 from nn_framework.layer import Dense
 from nn_framework.activation import tahn
 
-N_NODES = [5]
+N_NODES = [7, 4, 6]
 
 train_set, eval_set = dat.get_data_sets()
 
